@@ -126,6 +126,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA=n" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=n" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=y" >> .config
         fi
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
